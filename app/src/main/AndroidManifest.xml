@@ -21,6 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".http.login.LoginActivity"
+            android:exported="false"/>
+        <activity android:name=".ThirdActivity"
+            android:exported="false"/>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET"/>

@@ -62,4 +62,8 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
     implementation("androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0")
 
+
+    implementation ("com.kunminx.arch:unpeek-livedata:7.8.0")
+
+
 }
