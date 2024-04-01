@@ -8,7 +8,10 @@ import androidx.lifecycle.ViewModelProvider
 import com.ruma.moshidemo.http.MyViewModel
 import com.ruma.moshidemo.http.login.LoginUtil
 import com.ruma.moshidemo.scan.ScanActivity
+import dagger.hilt.android.AndroidEntryPoint
 
+
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
