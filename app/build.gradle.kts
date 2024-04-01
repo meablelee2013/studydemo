@@ -63,7 +63,12 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0")
 
 
-    implementation ("com.kunminx.arch:unpeek-livedata:7.8.0")
+    implementation("com.kunminx.arch:unpeek-livedata:7.8.0")
+
+
+
+    implementation("com.google.android.gms:play-services-mlkit-document-scanner:16.0.0-beta1")
+    implementation("com.github.bumptech.glide:glide:4.15.0")
 
 
 }

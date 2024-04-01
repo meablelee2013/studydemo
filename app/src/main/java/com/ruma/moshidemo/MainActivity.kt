@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.ruma.moshidemo.http.MyViewModel
 import com.ruma.moshidemo.http.login.LoginUtil
+import com.ruma.moshidemo.scan.ScanActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,9 +24,10 @@ class MainActivity : AppCompatActivity() {
 //                    Log.d("alex", it.data.toString())
 //                }, {})
 //            }
-            LoginUtil.goLogin(this, Bundle()) {
-                this@MainActivity.startActivity(Intent(this@MainActivity, ThirdActivity::class.java))
-            }
+//            LoginUtil.goLogin(this, Bundle()) {
+//                this@MainActivity.startActivity(Intent(this@MainActivity, ScanActivity::class.java))
+//            }
+            this@MainActivity.startActivity(Intent(this@MainActivity, ScanActivity::class.java))
         }
 //
 //        viewModel.combineResponse.observe(this) { data ->
