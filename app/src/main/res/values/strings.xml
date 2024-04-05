@@ -9,4 +9,5 @@
     <string name="label_enable_gallery_import" translatable="false">Enable gallery import: </string>
     <string name="label_set_page_limit" translatable="false">Set page limit per scan: </string>
     <string name="first_page_view" translatable="false">First page of the scanned document</string>
+    <string name="web_client_id" translatable="false">452834231163-cb0ra8o5nhhi4bmjohsgee22scc0j0ia.apps.googleusercontent.com</string>
 </resources>

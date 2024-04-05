@@ -6,12 +6,10 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.ruma.moshidemo.http.MyViewModel
-import com.ruma.moshidemo.http.login.LoginUtil
+import com.ruma.moshidemo.http.login.LoginActivity
 import com.ruma.moshidemo.scan.ScanActivity
-import dagger.hilt.android.AndroidEntryPoint
 
 
-@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 //            LoginUtil.goLogin(this, Bundle()) {
 //                this@MainActivity.startActivity(Intent(this@MainActivity, ScanActivity::class.java))
 //            }
-            this@MainActivity.startActivity(Intent(this@MainActivity, ScanActivity::class.java))
+            this@MainActivity.startActivity(Intent(this@MainActivity, LoginActivity::class.java))
         }
 //
 //        viewModel.combineResponse.observe(this) { data ->

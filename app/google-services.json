@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "452834231163",
+    "project_id": "moshidemowithsignin",
+    "storage_bucket": "moshidemowithsignin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452834231163:android:1b32f4bf0fb3db69bef3de",
+        "android_client_info": {
+          "package_name": "com.ruma.moshidemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJsdyMYv8awFTn_yMuMZYqXcqREokh_Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
